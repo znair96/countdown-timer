@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: url("./assets/bg-stars.svg"), url("./assets/pattern-hills.svg");
+  background-color: hsl(234, 17%, 12%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  background-size: auto 72%, 100% 162px;
+  min-height: 100dvh;
+  font-synthesis: none;
+  color: white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.counter-text {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 71px;
+  color: #fb5e84;
+  text-align: center;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+}
+main {
+  display: flex;
+  gap: 6px;
+  margin-top: 24px;
+}
+.counter-card {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+.counter-background {
+  width: 70px;
+  background: url("./assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.counter-header-text {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: center;
+  letter-spacing: 2.95937px;
+  color: #8385a9;
+}
+h1 {
+  font-family: "Red Hat Text";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 6.13636px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
